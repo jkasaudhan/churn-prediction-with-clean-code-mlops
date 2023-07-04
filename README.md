@@ -1,0 +1,24 @@
+### Project structure
+- README.md                  # Project documentation
+- data/                      # Data directory
+  - raw/                     # Raw data
+  - processed/               # Processed data
+  - external/                # External data (optional)
+- models/                    # Model artifacts and related files
+- notebooks/                 # Jupyter notebooks for exploration and experimentation
+- src/                       # Source code directory
+  - data/                    # Data-related code
+    - preprocessing/         # Data preprocessing scripts and modules
+    - validation/            # Data validation scripts and modules
+  - models/                  # Model-related code
+    - training/              # Model training scripts and modules
+    - evaluation/            # Model evaluation scripts and modules
+    - serving/               # Model serving scripts and modules
+  - infrastructure/          # Infrastructure-related code
+    - deployment/            # Deployment scripts and modules
+    - monitoring/            # Monitoring scripts and modules
+- tests/                     # Unit tests and integration tests
+- config/                    # Configuration files
+- pipelines/                 # MLOps pipelines (e.g., CI/CD, data pipelines)
+- docs/                      # Additional project documentation (e.g., architecture, design)
+- scripts/                   # Miscellaneous scripts (e.g., data download, setup)
